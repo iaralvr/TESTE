@@ -21,3 +21,9 @@ function soma()
     let num2 = document.getElementById("num2").value;
     document.getElementById( "resultado1" ).innerHTML= parseFloat(num1) + parseFloat(num2);
 }
+function divisão()
+{
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;
+    document.getElementById( "resultado2" ).innerHTML= parseFloat(num1) / parseFloat(num2);
+}
