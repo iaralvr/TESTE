@@ -4,6 +4,8 @@ document.getElementById("botao"). addEventListener("click",  shownome);
 
 document.getElementById("btn-soma").addEventListener("click", soma);
 
+document.getElementById("btn-divisão").addEventListener("click", dividir);
+
 function showcolor()
 {
     document.body.style.backgroundColor ="red";
