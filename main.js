@@ -1,15 +1,15 @@
 document.addEventListener("click",showcolor );
 
-document.getElementById("botao"). addEventListener("clik",  shownone);
+document.getElementById("botao"). addEventListener("click",  shownome);
 
 function showcolor()
 {
     document.body.style.backgroundColor ="red";
 }
 
-function shownone()
+function shownome()
 {
-    let usuario= document.getElementById("nome").value;
-    document.getElementById( "mensagem" ).innerHTML="Meu nome é:" + usuario;
+    let usuario = document.getElementById("nome").value;
+    document.getElementById( "mensagem" ).innerHTML= "Meu nome é:" + usuario;
     document.getElementById( "nome" ).value="";
 }
