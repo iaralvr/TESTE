@@ -10,4 +10,5 @@ function showcolor()
 function shownone()
 {
     let usuario= document.getElementById("nome").value;
+    document.getElementById("mensagem").innerText="Meu nome é:" + usuario;
 }
