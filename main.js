@@ -6,6 +6,8 @@ document.getElementById("btn-soma").addEventListener("click", soma);
 
 document.getElementById("btn-divisão").addEventListener("click", dividir);
 
+document.getElementById("btn-multiplicação").addEventListener("click", multiplicar);
+
 function showcolor()
 {
     document.body.style.backgroundColor ="red";
