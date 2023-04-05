@@ -9,5 +9,5 @@ function showcolor()
 
 function shownone()
 {
-
+    let usuario= document.getElementById("nome").value;
 }
